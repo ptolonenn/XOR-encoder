@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Text Encoder" property="og.title">
+    <link rel="stylesheet" href="style.css">
+    <title>Encoder</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Text encoder</h1>
+    </div>
+    <div class="text-box">
+        <!-- Input box -->
+        <div class="panel">
+            <label for="textInput"><strong>Text Input:</strong></label>
+            <textarea id="textInput" placeholder="Write your text to encode"></textarea>
+        </div>
+        <!-- Password Input -->
+        <div class="passwordInput">
+            <label for="passwordInput"><strong>Password Input:</strong></label>
+            <textarea id="passwordInput" placeholder="Write your password"></textarea>
+        </div>
+    </div>
+    <!-- Button -->
+    <div class="button">
+        <button id="button" placeholder="Encode/Decode">Encode / Decode</button>
+    </div>
+    <div class="text-box">
+        <!-- Output box -->
+        <div class="panel">
+            <label for="textOutput"><strong>Text Output:</strong></label>
+            <textarea id="textOutput" placeholder="Output" readonly></textarea>
+        </div>
+    </div>
+    <script src="brains.js"></script>
+</body>
+<footer>
+    <p class="foot">Encoded using XOR encoding</p>
+</footer>
+</html>
